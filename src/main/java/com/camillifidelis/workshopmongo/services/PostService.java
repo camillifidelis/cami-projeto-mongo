@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.camillifidelis.workshopmongo.domain.Post;
 import com.camillifidelis.workshopmongo.repository.PostRepository;
 
@@ -20,6 +19,6 @@ public class PostService {
     }
 
     public List<Post> findByTitle(String text) {
-        return repo.findByTitleContainingIgnoreCase(text);
+        return repo.searchTitle(text);
     }
 }
