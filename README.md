@@ -14,12 +14,12 @@
 - **Postman**
 - **Git/GitHub**
 
-## 🚀 Funcionalidades
+## ⚙️ Funcionalidades
 - Operações CRUD via API REST (GET/POST/PUT/DELETE)
 - Persistência de dados em MongoDB (NoSQL)
 - Estrutura organizada por camadas (controller/service/repository)
 
-## 🏁 Como executar (local)
+## 🟣 Como executar (local)
 
 ### 1) Pré-requisitos
 Instale e confirme que estão funcionando:
